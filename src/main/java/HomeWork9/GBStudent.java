@@ -7,7 +7,8 @@ class GBStudent implements Student {
     private String name;
     private final List<Course> courses = new ArrayList<>();
 
-    public String getName(){ return name; }
+    public String getName(){
+        return name; }
 
     public void setName(String name) {
 
@@ -25,4 +26,3 @@ class GBStudent implements Student {
         return courses;
     }
 }
-

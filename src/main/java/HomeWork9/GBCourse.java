@@ -5,6 +5,4 @@ record GBCourse(String name) implements Course {
     public String getName() {
         return name;
     }
-
 }
-

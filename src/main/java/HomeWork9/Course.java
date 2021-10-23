@@ -1,5 +1,5 @@
 package HomeWork9;
 
-interface Course {
+public interface Course {
     String getName();
 }
